@@ -13,36 +13,36 @@ export function createSampleFormData(): FormData {
       period: CURRENT_PERIOD,
     },
     group: {
-      revenue: { prev: '4,800', target: '5,400', actual: '' },
-      operatingProfit: { prev: '720', target: '900', actual: '' },
+      revenue: { prev: '4,800,000,000', target: '5,400,000,000', actual: '' },
+      operatingProfit: { prev: '720,000,000', target: '900,000,000', actual: '' },
       operatingMargin: { prev: '15.0', target: '16.7', actual: '' },
-      grossProfit: { prev: '2,160', target: '2,430', actual: '' },
+      grossProfit: { prev: '2,160,000,000', target: '2,430,000,000', actual: '' },
       strategicFocus:
         'D2C 事業の自社チャネル比率を 60% 以上に。クリエイティブ内製率を上げ、運用コストを 15% 圧縮する。',
     },
     company: {
-      revenue: { prev: '1,200', target: '1,400', actual: '' },
-      operatingProfit: { prev: '180', target: '230', actual: '' },
+      revenue: { prev: '1,200,000,000', target: '1,400,000,000', actual: '' },
+      operatingProfit: { prev: '180,000,000', target: '230,000,000', actual: '' },
       operatingMargin: { prev: '15.0', target: '16.4', actual: '' },
-      grossProfit: { prev: '540', target: '630', actual: '' },
+      grossProfit: { prev: '540,000,000', target: '630,000,000', actual: '' },
       strategicFocus:
-        '採用ブランディングと制度設計を統合し、リファラル比率 30% を目指す。半期で核人材 4 名を採用する。',
+        '採用ブランディングと制度設計を統合し、リファラル比率 30% を目指す。半期で核人材 6 名を採用する。',
     },
     dept: {
       mission:
         '会社の未来をつくる人を、ブレない基準で迎える。採用は「数」ではなく「同じ景色を見られる人」を集める仕事。',
       kgi1: {
         mission: '採用 KGI',
-        kgi: '上期 4 名（S 帯 2 名、T 帯 2 名）の本採用、定着率 100%',
+        kgi: '上期 6 名（S 帯 2 名、T 帯 4 名）の本採用、入社後 3 ヶ月定着率 100%',
       },
       kgi2: {
         mission: '採用ブランディング KGI',
-        kgi: 'リファラル比率 30% / 一次面接通過率 60% に底上げ',
+        kgi: 'リファラル比率 30% / 一次面接通過率 60% に底上げ、月間応募数 240 件',
       },
       kpi1: {
-        label: '応募数（リファラル＋自社経由）',
-        prev: '42',
-        target: '70',
+        label: '月間応募数（リファラル＋自社経由）',
+        prev: '160',
+        target: '240',
         actual: '',
         relatedKgi: 'kgi2',
       },
@@ -69,8 +69,8 @@ export function createSampleFormData(): FormData {
       },
       kpi5: {
         label: '採用 1 名あたりコスト',
-        prev: '52 万円',
-        target: '38 万円',
+        prev: '85 万円',
+        target: '55 万円',
         actual: '',
         relatedKgi: 'kgi2',
       },
@@ -105,9 +105,9 @@ export function createSampleFormData(): FormData {
       ],
       smartGoals: [
         {
-          relatedKpi: 'KPI1 応募数 / KPI3 内定承諾率',
+          relatedKpi: 'KPI1 月間応募数 / KPI3 内定承諾率',
           s: '採用サイトのリニューアルを完遂し、社員インタビュー 8 本＋評価シート見本ページを公開する',
-          m: '応募数 70 件 / 内定承諾率 85% を達成',
+          m: '月間応募数 240 件 / 内定承諾率 85% を達成',
           a: 'デザイナー 1 名 + ライター 1 名のリソース確保済み。原稿は社内インタビューで内製',
           r: '応募母集団の質を上げることが、後工程の歩留まりとリファラル拡大に直結するため',
           t: '8 月末公開、9 月末に効果計測',
@@ -124,8 +124,8 @@ export function createSampleFormData(): FormData {
         },
         {
           relatedKpi: 'KPI4 入社後 3 ヶ月定着率',
-          s: '90 日オンボーディングプログラムを設計し、上期入社者 4 名全員に適用',
-          m: '入社者 4 名の 3 ヶ月定着率 100% / 90 日面談スコア 4.0 以上',
+          s: '90 日オンボーディングプログラムを設計し、上期入社者 6 名全員に適用',
+          m: '入社者 6 名の 3 ヶ月定着率 100% / 90 日面談スコア 4.0 以上',
           a: 'バディ制度は既存社員から 4 名選定済み。30/60/90 日面談は HR が主導',
           r: '入社直後のミスマッチを早期に検知し、配属部署と HR で修正できる体制を作る',
           t: '6 月末プログラム完成、7 月以降の入社者から適用',
@@ -133,7 +133,7 @@ export function createSampleFormData(): FormData {
         },
       ],
       kpiContribs: [
-        { deptKpi: 'KPI1 応募数', myPart: '採用サイトリニューアル＋リファラル制度刷新で母集団を作る' },
+        { deptKpi: 'KPI1 月間応募数', myPart: '採用サイトリニューアル＋リファラル制度刷新で母集団を作る' },
         { deptKpi: 'KPI2 一次面接通過率', myPart: '評価基準統一と面接官研修を主導' },
         { deptKpi: 'KPI4 入社後 3 ヶ月定着率', myPart: '90 日オンボーディング設計と運用' },
       ],
