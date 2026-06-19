@@ -9,7 +9,7 @@ export function createSampleFormData(): FormData {
     cover: {
       company: 'INSTYLE GROUP',
       name: '佐藤 美咲',
-      grade: 'S',
+      grade: 'L',
       period: CURRENT_PERIOD,
     },
     group: {
@@ -170,7 +170,7 @@ export function createSampleFormData(): FormData {
       mgmtEval: 1,
     },
     gradeExpectations: {
-      S: '部署 KGI の達成を主導し、他部署と組んで全社課題を解く側に立てる。後進の引き上げが評価対象になる。',
+      L: '与えられた役割を確実に果たし、自分の担当領域で再現可能な成果を出せる。先輩の指示の意図を汲んで動き、判断に迷う場面は早めに相談できる。',
     },
   };
 }
