@@ -82,7 +82,7 @@ export default function Home() {
                   border: '1px solid rgba(255,255,255,.22)',
                   borderRadius: 999,
                 }}>
-                  採用サイト掲載用デモ
+                  デモ
                 </span>
               </div>
               <p style={{ fontSize: '.8125rem', color: 'rgba(243,241,238,.55)', lineHeight: 1.75, maxWidth: 720 }}>
