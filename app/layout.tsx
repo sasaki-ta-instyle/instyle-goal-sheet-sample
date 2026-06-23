@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const SITE_URL = "https://crhr.instyle.group/instyle-goal-sheet-sample";
+const SITE_URL = "https://crhr.instyle.group/ig-goal-sheet-sample";
 const ASSETS = "https://crhr.instyle.group/_shared/static";
 const TITLE = "目標設定シート 見本 — INSTYLE GROUP";
 const DESCRIPTION = "INSTYLE GROUP が社員の目標設定と評価に用いている実物シートの見本です。グループ → 会社 → 部署 → 個人 と段階的に目標を分解し、ギャランティ／ボーナス／昇格採点まで一気通貫で扱います。";

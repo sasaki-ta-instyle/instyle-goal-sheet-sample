@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const APP_NAME = "instyle-goal-sheet-sample";
+const APP_NAME = "ig-goal-sheet-sample";
 
 // Vercel プレビュー時は basePath を外す（vercel.app ドメインで違和感が出ないように）
 const isVercel = process.env.VERCEL === "1";

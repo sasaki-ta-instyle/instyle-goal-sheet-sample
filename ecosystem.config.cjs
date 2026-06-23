@@ -4,7 +4,7 @@
 
 const fs = require("fs");
 
-const SERVER_DIR = "/var/www/crhr/instyle-goal-sheet-sample/current";
+const SERVER_DIR = "/var/www/crhr/ig-goal-sheet-sample/current";
 
 function loadEnvFile(p) {
   if (!fs.existsSync(p)) return {};
@@ -22,7 +22,7 @@ const envApp = loadEnvFile(SERVER_DIR + "/.env.app");
 module.exports = {
   apps: [
     {
-      name: "crhr-instyle-goal-sheet-sample",
+      name: "crhr-ig-goal-sheet-sample",
       script: SERVER_DIR + "/server.js",
       cwd: SERVER_DIR,
       instances: 1,
