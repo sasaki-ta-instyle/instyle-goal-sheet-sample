@@ -209,7 +209,7 @@ function ConfirmView({ data }: { data: FormData }) {
     <div>
       <p className="section-title">確認</p>
       <p style={{ fontSize: '.8125rem', color: 'var(--color-text-muted)', marginBottom: 24 }}>
-        架空社員「佐藤 美咲」の記入例として算出された集計です。実運用版ではこの画面からシェア用URLを発行し、オーナーや上長と内容を共有します。
+        架空社員「〇〇 〇〇」の記入例として算出された集計です。実運用版ではこの画面からシェア用URLを発行し、オーナーや上長と内容を共有します。
       </p>
 
       <div className="table-wrap" style={{ marginBottom: 28 }}>

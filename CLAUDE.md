@@ -7,7 +7,7 @@ INSTYLE GROUP が実運用している目標設定シート（`instyle-goal-shee
 実運用版との差分:
 
 1. 保存系（JSON 書き出し / 部署目標書き出し / JSON 読み込み / URL シェア発行 / localStorage 自動保存）を全削除
-2. 架空社員「佐藤 美咲（G3 / INSTYLE GROUP / 2026.4〜9）」の記入例を初期表示
+2. 架空社員「〇〇 〇〇（G3 / INSTYLE GROUP / 2026.4〜9）」の記入例を初期表示
 3. ヘッダーコピーと metadata を採用見本仕様に差し替え
 
 ## デプロイ設定（Claude Code 用）

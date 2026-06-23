@@ -1,4 +1,4 @@
-// 採用候補者向け見本データ。架空社員「佐藤 美咲」が
+// 採用候補者向け見本データ。架空社員「〇〇 〇〇」が
 // INSTYLE GROUP の目標設定シートを記入した想定。
 // 実在社員・クライアント・契約金額は含まない。
 
@@ -8,7 +8,7 @@ export function createSampleFormData(): FormData {
   return {
     cover: {
       company: 'INSTYLE GROUP',
-      name: '佐藤 美咲',
+      name: '〇〇 〇〇',
       grade: 'L',
       period: CURRENT_PERIOD,
     },
@@ -159,14 +159,14 @@ export function createSampleFormData(): FormData {
       canAfford: 1,
       hasProfit: 1,
       futureProfit: 1,
-      deptKpiAchieved: 2,
-      personalKpiAchieved: 2,
-      supervisorEval: 2,
+      deptKpiAchieved: 1,
+      personalKpiAchieved: 1,
+      supervisorEval: 1,
       noSupervisor: false,
-      valueEval: 2,
+      valueEval: 1,
       reproducibility: 1,
-      roleAchievement: 2,
-      difficulty: 2,
+      roleAchievement: 1,
+      difficulty: 1,
       mgmtEval: 1,
     },
     gradeExpectations: {
